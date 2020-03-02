@@ -8,8 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AppsViewController: UIViewController {
+    
+    // MARK: - Properties -
+    
+    private var presenter: AppsPresenter = AppsPresenter()
 
+    // MARK: - Life cycle -
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
