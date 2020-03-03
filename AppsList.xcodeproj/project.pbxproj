@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		C4CE523224090B4700383428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE523124090B4700383428 /* AppDelegate.swift */; };
 		C4CE523424090B4700383428 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE523324090B4700383428 /* SceneDelegate.swift */; };
-		C4CE523624090B4700383428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE523524090B4700383428 /* ViewController.swift */; };
+		C4CE523624090B4700383428 /* AppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE523524090B4700383428 /* AppsViewController.swift */; };
 		C4CE523924090B4700383428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CE523724090B4700383428 /* Main.storyboard */; };
 		C4CE523B24090B4B00383428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CE523A24090B4B00383428 /* Assets.xcassets */; };
 		C4CE523E24090B4B00383428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CE523C24090B4B00383428 /* LaunchScreen.storyboard */; };
+		C4CE524624090C2300383428 /* AppsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE524524090C2300383428 /* AppsPresenter.swift */; };
+		C4CE524D24090F0500383428 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE524C24090F0500383428 /* Section.swift */; };
+		C4CE524F24090F1A00383428 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE524E24090F1A00383428 /* App.swift */; };
+		C4CE525124090F5500383428 /* Bundle+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE525024090F5500383428 /* Bundle+Decodable.swift */; };
+		C4CE5254240913E200383428 /* AppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE5253240913E200383428 /* AppCell.swift */; };
+		C4CE52592409148200383428 /* UICollectionViewCell+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE52582409148200383428 /* UICollectionViewCell+Identifier.swift */; };
+		C4CE525B24093E7800383428 /* otherApps.json in Resources */ = {isa = PBXBuildFile; fileRef = C4CE525A24093E7800383428 /* otherApps.json */; };
+		C4CE525F24093FA500383428 /* AddAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE525D24093FA500383428 /* AddAppViewController.swift */; };
+		C4CE52632409400A00383428 /* AddAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE52612409400A00383428 /* AddAppCell.swift */; };
+		C4CE5266240943DB00383428 /* AddAppViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CE5265240943DB00383428 /* AddAppViewController.storyboard */; };
+		C4CE5268240944CE00383428 /* installedApps.json in Resources */ = {isa = PBXBuildFile; fileRef = C4CE5267240944CE00383428 /* installedApps.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C4CE522E24090B4700383428 /* AppsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CE523124090B4700383428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4CE523324090B4700383428 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4CE523524090B4700383428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4CE523524090B4700383428 /* AppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsViewController.swift; sourceTree = "<group>"; };
 		C4CE523824090B4700383428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4CE523A24090B4B00383428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4CE523D24090B4B00383428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4CE523F24090B4B00383428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4CE524524090C2300383428 /* AppsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsPresenter.swift; sourceTree = "<group>"; };
+		C4CE524C24090F0500383428 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		C4CE524E24090F1A00383428 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		C4CE525024090F5500383428 /* Bundle+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decodable.swift"; sourceTree = "<group>"; };
+		C4CE5253240913E200383428 /* AppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCell.swift; sourceTree = "<group>"; };
+		C4CE52582409148200383428 /* UICollectionViewCell+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Identifier.swift"; sourceTree = "<group>"; };
+		C4CE525A24093E7800383428 /* otherApps.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = otherApps.json; sourceTree = "<group>"; };
+		C4CE525D24093FA500383428 /* AddAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAppViewController.swift; sourceTree = "<group>"; };
+		C4CE52612409400A00383428 /* AddAppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAppCell.swift; sourceTree = "<group>"; };
+		C4CE5265240943DB00383428 /* AddAppViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddAppViewController.storyboard; sourceTree = "<group>"; };
+		C4CE5267240944CE00383428 /* installedApps.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = installedApps.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,82 @@
 		C4CE523024090B4700383428 /* AppsList */ = {
 			isa = PBXGroup;
 			children = (
+				C4CE52572409147100383428 /* Extensions */,
+				C4CE524B24090EFC00383428 /* Models */,
 				C4CE523124090B4700383428 /* AppDelegate.swift */,
 				C4CE523324090B4700383428 /* SceneDelegate.swift */,
-				C4CE523524090B4700383428 /* ViewController.swift */,
+				C4CE524924090E1900383428 /* Data */,
+				C4CE524A24090E2500383428 /* Apps */,
+				C4CE525C24093F6D00383428 /* AddApps */,
 				C4CE523724090B4700383428 /* Main.storyboard */,
 				C4CE523A24090B4B00383428 /* Assets.xcassets */,
 				C4CE523C24090B4B00383428 /* LaunchScreen.storyboard */,
 				C4CE523F24090B4B00383428 /* Info.plist */,
 			);
 			path = AppsList;
+			sourceTree = "<group>";
+		};
+		C4CE524924090E1900383428 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE5267240944CE00383428 /* installedApps.json */,
+				C4CE525A24093E7800383428 /* otherApps.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C4CE524A24090E2500383428 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE5252240913CD00383428 /* Cells */,
+				C4CE524524090C2300383428 /* AppsPresenter.swift */,
+				C4CE523524090B4700383428 /* AppsViewController.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		C4CE524B24090EFC00383428 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE524C24090F0500383428 /* Section.swift */,
+				C4CE524E24090F1A00383428 /* App.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4CE5252240913CD00383428 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE5253240913E200383428 /* AppCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C4CE52572409147100383428 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE525024090F5500383428 /* Bundle+Decodable.swift */,
+				C4CE52582409148200383428 /* UICollectionViewCell+Identifier.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C4CE525C24093F6D00383428 /* AddApps */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE5269240944E200383428 /* Cells */,
+				C4CE525D24093FA500383428 /* AddAppViewController.swift */,
+				C4CE5265240943DB00383428 /* AddAppViewController.storyboard */,
+			);
+			path = AddApps;
+			sourceTree = "<group>";
+		};
+		C4CE5269240944E200383428 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE52612409400A00383428 /* AddAppCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +215,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4CE523E24090B4B00383428 /* LaunchScreen.storyboard in Resources */,
+				C4CE525B24093E7800383428 /* otherApps.json in Resources */,
+				C4CE5268240944CE00383428 /* installedApps.json in Resources */,
 				C4CE523B24090B4B00383428 /* Assets.xcassets in Resources */,
 				C4CE523924090B4700383428 /* Main.storyboard in Resources */,
+				C4CE5266240943DB00383428 /* AddAppViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +230,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CE523624090B4700383428 /* ViewController.swift in Sources */,
+				C4CE524D24090F0500383428 /* Section.swift in Sources */,
+				C4CE5254240913E200383428 /* AppCell.swift in Sources */,
+				C4CE525F24093FA500383428 /* AddAppViewController.swift in Sources */,
+				C4CE525124090F5500383428 /* Bundle+Decodable.swift in Sources */,
+				C4CE52592409148200383428 /* UICollectionViewCell+Identifier.swift in Sources */,
+				C4CE52632409400A00383428 /* AddAppCell.swift in Sources */,
+				C4CE523624090B4700383428 /* AppsViewController.swift in Sources */,
 				C4CE523224090B4700383428 /* AppDelegate.swift in Sources */,
+				C4CE524F24090F1A00383428 /* App.swift in Sources */,
+				C4CE524624090C2300383428 /* AppsPresenter.swift in Sources */,
 				C4CE523424090B4700383428 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 6,
+        "name": "Writings",
+        "image": "WritingsIcon"
+    },
+    {
+        "id": 7,
+        "name": "Letters",
+        "image": "LettersIcon"
+    },
+    {
+        "id": 8,
+        "name": "Images",
+        "image": "ImagesIcon"
+    },
+    {
+        "id": 9,
+        "name": "YourCylinder",
+        "image": "YourCylinderIcon"
+    },
+    {
+        "id": 10,
+        "name": "TimePiece",
+        "image": "TimePieceIcon"
+    }
+]

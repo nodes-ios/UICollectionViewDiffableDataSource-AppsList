@@ -79,6 +79,7 @@ class AppCell: UICollectionViewCell {
     }
     
     private func style() {
+        contentView.backgroundColor = .clear
         iconImageView.clipsToBounds = true
         iconImageView.layer.cornerRadius = 10
         nameLabel.font = UIFont.systemFont(ofSize: 10)

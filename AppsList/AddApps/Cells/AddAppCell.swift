@@ -21,23 +21,33 @@ class AddAppCell: UITableViewCell {
     
     // MARK: - Properties -
     private var indexPath: IndexPath?
+    private var app: App?
     var delegate: AddAppCellDelegate?
     
     // MARK: - Life cycle -
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+//        populate()
+    }
+    
+    private func populate() {
+        if let app = app {
+            iconImageView?.image = UIImage(named: "temple")
+            nameLabel?.text = app.name
+        }
     }
     
     // MARK: - Callbacks -
     @IBAction func addPressed(_ sender: Any) {
-        
+        if let indexPath = indexPath {
+            delegate?.addPressed(indexPath: indexPath)
+        }
     }
     
     // MARK: - Configuration -
     func configure(with app: App, indexPath: IndexPath) {
         self.indexPath = indexPath
-        iconImageView.image = UIImage(named: app.image)
-        nameLabel.text = app.name
+        self.app = app
+        populate()
     }
 }

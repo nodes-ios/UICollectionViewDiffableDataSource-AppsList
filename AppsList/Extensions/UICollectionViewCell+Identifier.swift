@@ -6,4 +6,16 @@
 //  Copyright © 2020 Nodes. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UICollectionReusableView {
+    static var identifier: String {
+        return "\(self)"
+    }
+}
+
+extension UITableViewCell {
+    static var identifier: String {
+        return "\(self)"
+    }
+}

@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Section: Decodable, Hashable {
+    let id: Int
+    let items: [App]
+}

@@ -38,11 +38,12 @@ class AddAppViewController: UIViewController {
     // MARK: - Setup methods -
     private func setupTableView() {
         tableView.dataSource = self
-        tableView.register(AddAppCell.self, forCellReuseIdentifier: AddAppCell.identifier)
+        tableView.delegate = self
+        tableView.tableFooterView = UIView()
     }
 }
 
-extension AddAppViewController: UITableViewDataSource {
+extension AddAppViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataSource.count
     }
@@ -63,6 +64,8 @@ extension AddAppViewController: UITableViewDataSource {
 extension AddAppViewController: AddAppCellDelegate {
     func addPressed(indexPath: IndexPath) {
         let app = dataSource[indexPath.row]
-        delegate?.add(app)
+        dismiss(animated: true) {
+            self.delegate?.add(app)
+        }
     }
 }

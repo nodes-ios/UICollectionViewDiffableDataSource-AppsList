@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "items": [
+            {
+                "id": 1,
+                "name": "WheresApp",
+                "image": "WheresAppIcon"
+            },
+            {
+                "id": 2,
+                "name": "ChainedIn",
+                "image": "ChainedInIcon"
+            },
+            {
+                "id": 3,
+                "name": "Delayedgram",
+                "image": "DelayedgramIcon"
+            },
+            {
+                "id": 4,
+                "name": "Cackle",
+                "image": "CackleIcon"
+            },
+            {
+                "id": 5,
+                "name": "FaceBundler",
+                "image": "FaceBundlerIcon"
+            }
+        ]
+    }
+]

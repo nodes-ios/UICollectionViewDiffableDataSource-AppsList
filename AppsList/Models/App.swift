@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct App: Decodable, Hashable {
+    let id: Int
+    let name: String
+    let image: String
+}
